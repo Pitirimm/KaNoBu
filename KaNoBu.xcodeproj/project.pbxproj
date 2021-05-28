@@ -13,6 +13,8 @@
 		992882672661782000E2A9B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992882652661782000E2A9B1 /* Main.storyboard */; };
 		992882692661782200E2A9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 992882682661782200E2A9B1 /* Assets.xcassets */; };
 		9928826C2661782200E2A9B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9928826A2661782200E2A9B1 /* LaunchScreen.storyboard */; };
+		99288274266178BF00E2A9B1 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99288273266178BF00E2A9B1 /* GameState.swift */; };
+		9928827626617A6800E2A9B1 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9928827526617A6800E2A9B1 /* Sign.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		992882682661782200E2A9B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9928826B2661782200E2A9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9928826D2661782200E2A9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99288273266178BF00E2A9B1 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		9928827526617A6800E2A9B1 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				992882682661782200E2A9B1 /* Assets.xcassets */,
 				9928826A2661782200E2A9B1 /* LaunchScreen.storyboard */,
 				9928826D2661782200E2A9B1 /* Info.plist */,
+				99288273266178BF00E2A9B1 /* GameState.swift */,
+				9928827526617A6800E2A9B1 /* Sign.swift */,
 			);
 			path = KaNoBu;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				992882642661782000E2A9B1 /* ViewController.swift in Sources */,
+				99288274266178BF00E2A9B1 /* GameState.swift in Sources */,
+				9928827626617A6800E2A9B1 /* Sign.swift in Sources */,
 				992882602661782000E2A9B1 /* AppDelegate.swift in Sources */,
 				992882622661782000E2A9B1 /* SceneDelegate.swift in Sources */,
 			);
@@ -216,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SD7LJ4VSJV;
 				INFOPLIST_FILE = KaNoBu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = YuriMar.KaNoBu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SD7LJ4VSJV;
 				INFOPLIST_FILE = KaNoBu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +325,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = YuriMar.KaNoBu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
